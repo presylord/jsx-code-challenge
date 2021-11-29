@@ -8,7 +8,9 @@ import ReactDOM from "react-dom";
 
 ReactDOM.render(
   <div>
-    <h1>Operating Systems for Desktops:</h1>
+    <h1 className="header" contentEditable="true" spellCheck="false">
+      Operating Systems for Desktops:
+    </h1>
     <ul>
       <li>Windows</li>
       <li>MacOS</li>
